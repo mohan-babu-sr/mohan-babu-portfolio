@@ -1,2 +1,2 @@
-<p>dashboard works!</p>
-<app-spinner-component></app-spinner-component>
+<app-spinner-component *ngIf="isLoading"></app-spinner-component>
+<p *ngIf="!isLoading">dashboard works!</p>
