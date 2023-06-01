@@ -16,6 +16,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SpinnerComponentComponent } from './common/spinner-component/spinner-component.component';
 import { ButtonComponentComponent } from './common/button-component/button-component.component';
 import { MatDividerComponentComponent } from './common/mat-divider-component/mat-divider-component.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MatDividerComponentComponent } from './common/mat-divider-component/mat
     SpinnerComponentComponent,
     ButtonComponentComponent,
     MatDividerComponentComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,

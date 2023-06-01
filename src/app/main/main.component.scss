@@ -1,0 +1,18 @@
+.container {
+    margin: auto;
+    // You can use any width and height you want
+    width: 50%;
+    height: 91vh;
+    // This will center the text vertically
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.text {
+    // You can use any font size you want
+    font-size: 140px;
+    // This will center the text horizontally
+    text-align: center;
+    overflow-wrap: break-word;
+}
